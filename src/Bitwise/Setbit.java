@@ -7,6 +7,7 @@ public class Setbit {
         int i=0;
         while(a>0)
         {
+
             int t= a&1;
             if(t==1)
             {
