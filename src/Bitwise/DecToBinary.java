@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class DecToBinary {
     public static void main(String[] args) {
-        int a=7;
+        int a=8;
         //using array
         int[] arr= new int[4];
        DecTB(a,arr);//using array
@@ -13,17 +13,6 @@ public class DecToBinary {
         DTBi(a);//using bitwise
 
 
-        System.out.println();
-        int i=0;
-        while(a>0)
-        {
-            int t= a&1;
-
-                System.out.print(t);
-            i++;
-
-            a=  a>>1;
-        }
 
 
     }
