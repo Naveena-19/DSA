@@ -6,7 +6,8 @@ public static void main(String[] args)
     int[] a = new int[100];
 
     // Initializing the array with values from 1 to 100
-    for (int i = 0; i < 100; i++) {
+    for (int i = 0; i < 100; i++)
+    {
         a[i] = i + 1;
     }
 
