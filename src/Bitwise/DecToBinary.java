@@ -12,6 +12,20 @@ public class DecToBinary {
 
         DTBi(a);//using bitwise
 
+
+        System.out.println();
+        int i=0;
+        while(a>0)
+        {
+            int t= a&1;
+
+                System.out.print(t);
+            i++;
+
+            a=  a>>1;
+        }
+
+
     }
 
     private static void DTBi(int a)
