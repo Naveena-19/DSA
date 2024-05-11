@@ -11,7 +11,7 @@ public class Power_2 {
                 System.out.println("it is power of 2");
             }
             if (t == 1 && n != 0) {
-                System.out.println("it is not power of 2");
+                System.out.println("it is not power of 2");//
                 break;
 
             }
