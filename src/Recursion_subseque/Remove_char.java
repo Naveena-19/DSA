@@ -8,12 +8,12 @@ public class Remove_char
 
     }
     public static String remove(String s,String nstr)
-
     {
 //        System.out.println(s.substring(0));
 //        System.out.println(s.substring(0,1));
 
-        if((s.length())==0)
+//        if((s.length())==0)
+        if(s.isEmpty())
         {
             return nstr;
         }
