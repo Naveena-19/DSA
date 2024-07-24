@@ -26,7 +26,7 @@ public class Permuatation
             permu(f+ch+s,s2.substring(1),permuList);
         }
 
-
+ 
     }
 
 }
